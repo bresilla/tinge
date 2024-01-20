@@ -1,13 +1,13 @@
 just:
-	xmake
-	xmake project -k compile_commands
-	xmake project -k cmake
+    xmake
+    xmake project -k compile_commands
+    xmake project -k cmake
     xmake package
 
 build:
     xmake
 
-# book:
+book:
     mdbook build book --dest-dir ../docs
     git add -A && git commit -m "docs: building website/mdbook"
 
