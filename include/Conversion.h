@@ -1,7 +1,7 @@
 #ifndef RGB_CONVERTER_H
 #define RGB_CONVERTER_H
 
-namespace ColorSpace {
+namespace tinge {
     struct Rgb;
     struct Xyz;
     struct Hsl;

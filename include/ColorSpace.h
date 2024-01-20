@@ -4,7 +4,7 @@
 #include "Conversion.h"
 #include <typeinfo>
 
-namespace ColorSpace {
+namespace tinge {
     struct IColorSpace {
         IColorSpace() {}
         virtual ~IColorSpace() {}

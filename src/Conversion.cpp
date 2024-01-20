@@ -13,7 +13,7 @@
 #define DegToRad(x) ((x)*M_PI / 180)
 #define RadToDeg(x) ((x) / M_PI * 180)
 
-namespace ColorSpace {
+namespace tinge {
     double Hue_2_RGB(double v1, double v2, double vh) {
         if (vh < 0)
             vh += 1;

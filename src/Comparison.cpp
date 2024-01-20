@@ -10,7 +10,7 @@
 #define DegToRad(x) ((x)*M_PI / 180)
 #define RadToDeg(x) ((x) / M_PI * 180)
 
-namespace ColorSpace {
+namespace tinge {
     double EuclideanComparison::Compare(IColorSpace *a, IColorSpace *b) {
         Rgb rgb_a;
         Rgb rgb_b;

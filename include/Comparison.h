@@ -3,7 +3,7 @@
 
 #include "ColorSpace.h"
 
-namespace ColorSpace {
+namespace tinge {
     struct EuclideanComparison {
         static double Compare(IColorSpace *a, IColorSpace *b);
     };

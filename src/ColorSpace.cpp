@@ -1,7 +1,7 @@
 #include "ColorSpace.h"
 #include "Conversion.h"
 
-namespace ColorSpace {
+namespace tinge {
     Rgb::Rgb() {}
     Rgb::Rgb(double r, double g, double b) : r(r), g(g), b(b) {}
     void Rgb::Initialize(Rgb *color) { RgbConverter::ToColorSpace(color, this); }
