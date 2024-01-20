@@ -1,0 +1,16 @@
+[
+{
+  "directory": "/doc/code/PROJECTS/tinge",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++11", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/tinge/linux/x86_64/release/src/ColorSpace.cpp.o", "src/ColorSpace.cpp"],
+  "file": "src/ColorSpace.cpp"
+},
+{
+  "directory": "/doc/code/PROJECTS/tinge",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++11", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/tinge/linux/x86_64/release/src/Comparison.cpp.o", "src/Comparison.cpp"],
+  "file": "src/Comparison.cpp"
+},
+{
+  "directory": "/doc/code/PROJECTS/tinge",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++11", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/tinge/linux/x86_64/release/src/Conversion.cpp.o", "src/Conversion.cpp"],
+  "file": "src/Conversion.cpp"
+}]
